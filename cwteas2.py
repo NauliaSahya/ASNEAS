@@ -277,7 +277,7 @@ if use_sig:
             st.dataframe(df_freq, use_container_width=True)
 
         with col2:
-            st.markdown("**Indeks Skala → Periode(s)**")
+            st.markdown("**Indeks Skala → Waktu(s)**")
             df_time = pd.DataFrame({
                 "Indeks Skala": s_idx,
                 "Waktu (s)": tk
